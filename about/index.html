@@ -1,4 +1,1481 @@
-Author: AlanHsu
-Date: 2019-01-11
-Contact: 511-2819
-Mail: alan.hc.hsu@fii-foxconn.com
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta property="fb:app_id" content="58923144965" />
+<meta property="fb:pages" content="71411645007" />
+<meta name="author" content="Hassan Mujtaba" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="Wccftech">
+<meta name="application-name" content="Wccftech">
+<meta name="theme-color" content="#ffffff">
+
+<style>@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500|Open+Sans:400,700');</style>
+
+
+<title>Intel Xeon Roadmap Leaks Cascade Lake-SP, Cooper Lake-SP and Ice Lake-SP</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v9.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="The Intel Xeon Scalable family roadmap has leaked out, revealing several Xeon products that are planned to launch in the coming years."/>
+<link rel="canonical" href="https://wccftech.com/intel-xeon-scalable-family-roadmap-revealed-points-out-cascade-lake-sp-in-q4-2018-cooper-lake-sp-in-q4-2019-ice-lake-sp-in-1h-2020/" />
+<link rel="publisher" href="https://plus.google.com/+Wccftech_com/"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Intel Xeon Roadmap Leaks Cascade Lake-SP, Cooper Lake-SP and Ice Lake-SP" />
+<meta property="og:description" content="The Intel Xeon Scalable family roadmap has leaked out, revealing several Xeon products that are planned to launch in the coming years." />
+<meta property="og:url" content="https://wccftech.com/intel-xeon-scalable-family-roadmap-revealed-points-out-cascade-lake-sp-in-q4-2018-cooper-lake-sp-in-q4-2019-ice-lake-sp-in-1h-2020/" />
+<meta property="og:site_name" content="Wccftech" />
+<meta property="article:publisher" content="https://www.facebook.com/wccftech" />
+<meta property="article:author" content="https://www.facebook.com/hms1193" />
+<meta property="article:tag" content="Cascade Lake" />
+<meta property="article:tag" content="Cooper Lake" />
+<meta property="article:tag" content="Ice Lake" />
+<meta property="article:tag" content="Intel" />
+<meta property="article:tag" content="Intel 10nm" />
+<meta property="article:tag" content="Intel 14nm" />
+<meta property="article:tag" content="Intel Advanced Processor" />
+<meta property="article:tag" content="Intel AP" />
+<meta property="article:tag" content="Intel Cascade Lake" />
+<meta property="article:tag" content="Intel Cooper Lake" />
+<meta property="article:tag" content="Intel Ice Lake" />
+<meta property="article:tag" content="Intel Scalable Processor" />
+<meta property="article:tag" content="Intel SP" />
+<meta property="article:tag" content="Intel Xeon" />
+<meta property="article:tag" content="Purley Platform" />
+<meta property="article:tag" content="Skylake" />
+<meta property="article:tag" content="Tinsley Platform" />
+<meta property="article:tag" content="Whitley Platform" />
+<meta property="article:section" content="News" />
+<meta property="article:published_time" content="2018-07-26T13:05:57+00:00" />
+<meta property="article:modified_time" content="2018-07-26T22:22:00+00:00" />
+<meta property="og:updated_time" content="2018-07-26T22:22:00+00:00" />
+<meta property="og:image" content="https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1.jpg" />
+<meta property="og:image:secure_url" content="https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1.jpg" />
+<meta property="og:image:width" content="1631" />
+<meta property="og:image:height" content="1087" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The Intel Xeon Scalable family roadmap has leaked out, revealing several Xeon products that are planned to launch in the coming years." />
+<meta name="twitter:title" content="Intel Xeon Roadmap Leaks Cascade Lake-SP, Cooper Lake-SP and Ice Lake-SP" />
+<meta name="twitter:site" content="@wccftechdotcom" />
+<meta name="twitter:image" content="https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1.jpg" />
+<meta name="twitter:creator" content="@hms1193" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Wccftech &raquo; Feed" href="https://wccftech.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Wccftech &raquo; Comments Feed" href="https://wccftech.com/comments/feed/" />
+<link rel='stylesheet' id='wccf-main-css'  href='https://cdn.wccftech.com/wp-content/themes/wccf2016/style.css?ver=1546862519' type='text/css' media='all' />
+<link rel='stylesheet' id='wccf-style-single-css'  href='https://cdn.wccftech.com/wp-content/themes/wccf2016/style-single.css?ver=1544717250' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://wccftech.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wccftech.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cdn.wccftech.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.9" />
+<link rel='shortlink' href='https://wccftech.com/?p=913895' />
+<link rel="alternate" type="application/json+oembed" href="https://wccftech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwccftech.com%2Fintel-xeon-scalable-family-roadmap-revealed-points-out-cascade-lake-sp-in-q4-2018-cooper-lake-sp-in-q4-2019-ice-lake-sp-in-1h-2020%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://wccftech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwccftech.com%2Fintel-xeon-scalable-family-roadmap-revealed-points-out-cascade-lake-sp-in-q4-2018-cooper-lake-sp-in-q4-2019-ice-lake-sp-in-1h-2020%2F&#038;format=xml" />
+<script type='text/javascript'>
+	(function () {
+		var pl_beacon = document.createElement('script');
+		pl_beacon.type = 'text/javascript';
+		pl_beacon.async = true;
+		var host = 'https://wccftech.com';
+		if ('https:' == document.location.protocol) {
+			host = host.replace('http://', 'https://');
+		}
+		pl_beacon.src = host + '/cnt7vfDVvWa3.js?ts=' + Math.floor((Math.random() * 100000) + 1);
+		var first_script_tag = document.getElementsByTagName('script')[0];
+		first_script_tag.parentNode.insertBefore(pl_beacon, first_script_tag);
+	})();
+</script><script type="text/javascript">var algolia = {"debug":false,"application_id":"JP6Z5G2P43","search_api_key":"4784f5ddc534ec220ede8a86867f33c7","powered_by_enabled":false,"query":"","autocomplete":{"sources":[{"index_id":"searchable_posts","index_name":"wp_searchable_posts","label":"All posts","admin_name":"All posts","position":10,"max_suggestions":5,"tmpl_suggestion":"autocomplete-post-suggestion","enabled":true}],"input_selector":"input[name='s']:not('.no-autocomplete')"},"indices":{"searchable_posts":{"name":"wp_searchable_posts","id":"searchable_posts","enabled":true,"replicas":[]}}};</script><link rel="amphtml" href="https://wccftech.com/intel-xeon-scalable-family-roadmap-revealed-points-out-cascade-lake-sp-in-q4-2018-cooper-lake-sp-in-q4-2019-ice-lake-sp-in-1h-2020/amp/">
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-3244067-1', 'auto');
+	  ga('set', 'dimension1', 'Hassan Mujtaba');
+  ga('set', 'dimension2', 'Breaking,Featured,Memory,Motherboards,News,PC,Processors,Sticky');
+  ga('set', 'dimension4', 'post');
+  ga('set', 'dimension8', 'Analysis,Hardware,Leak');
+	var pixelRatio = (window.devicePixelRatio >= 1.5) ? "high" : "normal";
+	if (window.devicePixelRatio) {
+		ga('set', 'dimension5', pixelRatio );
+	}
+	ga('send', 'pageview');
+</script>
+
+<style>
+	@font-face {font-family: 'icomoon';  src: url('//cdn.wccftech.com/fonts/icomoon9.eot'); src: url('//cdn.wccftech.com/fonts/icomoon9.eot#iefix') format('embedded-opentype'), url('//cdn.wccftech.com/fonts/icomoon9.ttf') format('truetype'), url('//cdn.wccftech.com/fonts/fonts/icomoon9.woff') format('woff'), url('//cdn.wccftech.com/fonts/icomoon9.svg#icomoon') format('svg'); font-weight: normal; font-style: normal; }
+</style>
+
+
+
+<script type="text/javascript" async=true>var elem=document.createElement("script");elem.src="https://quantcast.mgr.consensu.org/cmp.js";elem.async=!0;elem.type="text/javascript";var scpt=document.getElementsByTagName("script")[0];scpt.parentNode.insertBefore(elem,scpt);(function(){function d(){if(!window.frames.__cmpLocator)if(document.body){var b=document.body,a=document.createElement("iframe");a.style="display:none";a.name="__cmpLocator";b.appendChild(a)}else setTimeout(d,5)}function c(b){var a="string"===typeof b.data;var c=a?-1!=b.data.indexOf("__cmpCall")?JSON.parse(b.data):{}:b.data;if(c.__cmpCall){var e=c.__cmpCall;window.__cmp(e.command,e.parameter,function(c,d){var f={__cmpReturn:{returnValue:c,success:d,callId:e.callId}};b.source.postMessage(a?JSON.stringify(f):f,"*")})}}d();window.__cmp=function(b){var a=arguments;if(a.length)if("ping"===a[0])a[2]({gdprAppliesGlobally:!1,cmpLoaded:!1},!0);else{if("__cmp"==b)return!1;"undefined"===typeof __cmp.a&&(__cmp.a=[]);__cmp.a.push([].slice.apply(a))}else return __cmp.a};window.__cmp.gdprAppliesGlobally=!1;window.__cmp.msgHandler=c;window.addEventListener?window.addEventListener("message",c,!1):window.attachEvent("onmessage",c)})();window.__cmp("init",{Language:"en","Initial Screen Reject Button Text":"I do not accept","Initial Screen Accept Button Text":"I accept","Purpose Screen Header Title Text":"Privacy settings","Purpose Screen Body Text":"You can set your consent preferences and determine how you want your data to be used based on the purposes below. You may set your preferences for us independently from those of third-party partners. Each purpose has a description so that you know how we and partners use your data.","Vendor Screen Body Text":"You can set consent preferences for each individual third-party company below. Expand each company list item to see what purposes they use data for to help make your choices. In some cases, companies may disclose that they use your data without asking for your consent, based on their legitimate interests. You can click on their privacy policies for more information and to opt out.","Vendor Screen Accept All Button Text":"Accept all","Vendor Screen Reject All Button Text":"Reject all","Initial Screen Body Text":"We and our partners use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. You can change your mind and change your consent choices at anytime by returning to this site.","Initial Screen Body Text Option":1,"Publisher Name":"Wccftech","Publisher Logo":"https://cdn.wccftech.com/wccftech-logo-170x30.png","Min Days Between UI Displays":365,"No Option":!1,"Default Value for Toggles":"on"});</script><style>.qc-cmp-publisher-logo{padding-top: 10px !important; width: 170px !important; height: 30px !important;}.qc-cmp-ui-content{padding-top: 10px !important;}.qc-cmp-alt-buttons{padding-bottom:30px !important;}.qc-cmp-ui-content {padding-bottom:30px !important;}.qc-cmp-title{font-size:25px !important;}.qc-cmp-qc-link-container{display:none !important}</style>
+
+
+	<script type="text/javascript" src="//dsh7ky7308k4b.cloudfront.net/publishers/wccftechcom.min.js?v3"></script>
+
+	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+	<script>
+	  var googletag = googletag || {};
+	  googletag.cmd = googletag.cmd || [];
+	</script>
+
+	<script>
+	  googletag.cmd.push(function() {
+
+	  		    
+	    			googletag.defineSlot('/8095840/4.Wccftech_728x90_ATF', [[970, 250], [970, 90], [728, 90]], 'div-gpt-ad-1454066633851-0').addService(googletag.pubads());
+			googletag.defineSlot('/8095840/4.Wccftech_300x250_ATF', [300, 250], 'div-gpt-ad-1454066633851-2').addService(googletag.pubads());
+			googletag.defineSlot('/8095840/4.wccftech.com_desktop_300x600', [300, 600], 'div-gpt-ad-1454066633851-7').addService(googletag.pubads());
+			googletag.defineSlot('/8095840/4.wccftech.com_desktop_300x250_mc', [[300, 250], [728, 90]], 'div-gpt-ad-1454066633851-6').addService(googletag.pubads());
+			googletag.defineSlot('/8095840/4.Wccftech_300x250_BTF', [300, 250], 'div-gpt-ad-1454066633851-3').addService(googletag.pubads());
+			googletag.defineSlot('/8095840/4.Wccftech.com_desktop_300x250_BTF2', [300, 250], 'div-gpt-ad-1454066633851-4').addService(googletag.pubads());
+			googletag.defineSlot('/8095840/4.Wccftech_728x90_BTF', [728, 90], 'div-gpt-ad-1454066633851-1').addService(googletag.pubads());
+
+			
+	    
+	    
+	    
+			    
+
+	    googletag.enableServices();
+	  });
+	</script>
+
+	<script src="https://cdn.nsstatic.com/ns/wccftech.com.js" id="nsgpt" async="true"></script>
+
+
+
+<!--[if lt IE 9]>
+    <script src="//cdn.wccftech.com/html5shiv.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="//s.ntv.io/serve/load.js" async></script>
+
+
+
+</head>
+
+<body class="post-template-default single single-post postid-913895 single-format-standard">
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1503230403325633');
+fbq('track', 'PageView');
+</script><noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=1503230403325633&ev=PageView&noscript=1"/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<header>
+    <section class="wrap clearfix">
+				<div class="logo"><a href="https://wccftech.com/" rel="home"><img src="//cdn.wccftech.com/images/wccftech-logo.png" width="223" height="40" alt="Wccftech"></a></div>
+		
+        <ul class="nav">
+	        <li><a href="/category/news/"   title="See all news">News</a></li>
+	        <li><a href="/review/"          title="See all reviews">Reviews</a></li>
+	        <li><a href="/topic/hardware/"  title="See all hardware news">Hardware</a></li>
+	        <li><a href="/topic/games/"     title="See all gaming news">Gaming</a></li>
+	        <li><a href="/topic/gadgets/"   title="See all mobile news">Mobile</a></li>
+	        <li><a href="/topic/security/"   title="See all security news">Security</a></li>
+	        <li><a href="/topic/finance/"   title="See all finance news">Finance</a></li>
+	        <li><a href="/topic/deals/"     title="See all our deals posts">Deals</a></li>
+	        <li><a href="/pc-builder/"          title="PC Builder by Wccftech">PC Builder</a></li>
+		</ul>
+		<div class="toggle-search" title="Search"></div>
+    </section>
+	<div class="search-form">
+		<form class="wrap" action="/find/"><input id="q" name="q" type="text" placeholder="What do you want to search for?" autocomplete="off"><input type="submit"></form>
+	</div>
+</header>
+
+<div class="banner-ad" style="margin: 0 auto 40px auto;">
+	<!-- 728x90 ATF -->
+	<!-- /8095840/4.Wccftech_728x90_ATF -->
+	<div id='div-gpt-ad-1454066633851-0'>
+	<script>
+	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454066633851-0'); });
+	</script>
+	</div>	
+</div>
+
+
+<main class="wrap clearfix" style="margin-top: 20px">	
+
+	
+    <section class="content">
+	    		
+		<div class="topics"><a href="https://wccftech.com/topic/analysis/" rel="tag">Analysis</a>&nbsp; &#8942; &nbsp;<a href="https://wccftech.com/topic/hardware/" rel="tag">Hardware</a>&nbsp; &#8942; &nbsp;<a href="https://wccftech.com/topic/leak/" rel="tag">Leak</a></div>
+	
+		<h1 class="page-heading">Intel Xeon Scalable Family Roadmap Revealed &#8211; Points Out 14nm Cascade Lake-SP in Q4 2018, Cooper Lake-SP in Q4 2019, 10nm Ice Lake-SP in 1H 2020</h1>
+			
+	    <div class="single-meta">
+		    <div class="meta-left">
+				<div class="meta-avatar"><a href="https://wccftech.com/author/hms/"><img class="avatar" src="https://cdn.wccftech.com/wp-content/uploads/2016/09/Hassan.jpg" alt="Author Photo"></a></div>
+				<div class="meta-author">By <a href="https://wccftech.com/author/hms/" title="Posts by Hassan Mujtaba" rel="author">Hassan Mujtaba</a></div>
+			    <div class="meta-time">Jul 26, 2018</div>
+		    </div>
+		    <div class="meta-share meta-share-top">
+			    <div>14<span>Shares</span></div>
+			    <span class="facebook"><i class="icon-facebook"></i> Share</span><span class="twitter"><i class="icon-twitter"></i> Tweet</span><span class="reddit"><i class="icon-reddit"></i> Submit</span>
+			</div>
+	    </div>
+		
+		<div class="body clearfix">
+		
+			<div class="wp-caption aligncenter featured-image"><div class="wp-lightbox"><a href="https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1.jpg"><img width="740" height="493" src="https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-740x493.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-740x493.jpg 740w, https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-410x273.jpg 410w, https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-768x512.jpg 768w, https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-820x546.jpg 820w, https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-1480x986.jpg 1480w, https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-1030x686.jpg 1030w, https://cdn.wccftech.com/wp-content/uploads/2017/05/Intel-Cascade-Lake-Xeon-Scalable-Platform-With-Optane-DIMM_1-635x423.jpg 635w" sizes="(max-width: 740px) 100vw, 740px" /></a></div></div>
+			
+<p>The latest Intel Xeon Scalable family roadmap has leaked out, revealing several Xeon products that are planned to launch in the coming years. We know that Intel is launching their Cascade Lake-SP processors this year but the roadmap points out to future Xeon families up till 2020, as pointed out by the roadmap.</p>
+<h2>Intel Xeon Scalable Family Roadmap Reveals 14nm Cooper Lake-SP in 2019, 10nm Ice Lake-SP in 2020 and Next-Generation Xeon Post-2020</h2>
+<p>The details show that Intel is currently planning the Cascade Lake-SP family for launch later this year. Based on the 14nm+ node, the <a href="https://wccftech.com/intel-cascade-lake-xeon-scalable-platform-optane-dimm-2018/">Cascade Lake-SP Xeons</a> would feature higher efficiency and retain support on the existing Purley platform, while offering new feature and I/O expandability. The following lineups are expected under the Cascade Lake family:</p>
+<p><a class="wccf_related_post" href="https://wccftech.com/intel-launches-new-nervana-ai-neural-network-processor-with-100-watt-power-arriving-in-2019/"><img width="86" height="60" src="https://cdn.wccftech.com/wp-content/uploads/2019/01/Intel-NNP-Feature-Neural-Network-Nervana-86x60.jpg" alt="intel-nnp-feature-neural-network-nervana" srcset="https://cdn.wccftech.com/wp-content/uploads/2019/01/Intel-NNP-Feature-Neural-Network-Nervana-172x120.jpg 2x"><span><strong>Related</strong> Intel Launches New Nervana AI Neural Network Processor With 100 Watt+ Power, Arriving in 2019</span></a></p>
+<ul>
+<li><strong>Intel Cascade Lake-AP “Advanced Processor Family” (BGA 5903)</strong></li>
+<li><strong>Intel Cascade Lake-SP “Scalable Processor Family” (LGA 3647)</strong></li>
+<li><strong>Intel Cascade Lake-X “HEDT Consumer Family” (LGA 3647)</strong></li>
+</ul>
+
+<p class="wp-lightbox"><a href="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap.jpg" ><img class="aligncenter size-large wp-image-914425" src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap-740x401.jpg" alt="" width="740" height="401" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap-740x401.jpg 740w, https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap-410x222.jpg 410w, https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap-768x417.jpg 768w, https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap-820x445.jpg 820w, https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap-1030x559.jpg 1030w, https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family-Roadmap.jpg 1200w" sizes="(max-width: 740px) 100vw, 740px"></a></p>
+
+<p>Now, we have known Cascade Lake-SP family for a while and the Cascade Lake-X family will have lots of similarities with it. Both Cascade Lake-SP and Cascade Lake-X processors will be featuring support for the LGA 3647 socket. Both families will have support for 6 channel memory and we can also expect faster memory support of DDR4-2800 (native). Cascade Lake-SP processors will be the first to feature Optane DIMM support which is shipping later this year but this cannot be said to be true for Cascade Lake-X series. The Cascade Lake Xeons would feature up to 28 cores and 56 threads, the same configurations would be made available to enthusiasts in the form of Cascade Lake-X.</p>
+<p>Moving on to the Cascade Lake-AP series, the new family will be the first to use the “Advanced Processor” badge. Expected to hit markets in the mid of 2019 and under the ‘Walker Pass’ brand platform, the Cascade Lake Advanced Processor lineup is Intel trying to regain their momentum on the server side after taking a huge hit by <a href="https://wccftech.com/amd-computex-2018-epyc-is-more-performance-at-every-price-point-compared-to-competitors/">AMD’s disruptive EPYC line of CPUs</a> that offer more cores, more memory, and more PCIe lanes while retaining Intel’s level of IPC. This has taken a toll on Intel’s market share and the effects are apparent with Intel’s CEO, Brian Krzanich, <a href="https://wccftech.com/intel-ceo-we-will-likely-lose-server-market-share-to-amds-epyc/">expecting his company to lose server market share to AMD’s new platform</a>.</p>
+<p><a class="wccf_related_post" href="https://wccftech.com/intel-10nm-hvm-ice-lake-soc-mobility/"><img width="86" height="60" src="https://cdn.wccftech.com/wp-content/uploads/2019/01/ice-lake-soc-86x60.jpg" alt="ice-lake-soc" srcset="https://cdn.wccftech.com/wp-content/uploads/2019/01/ice-lake-soc-172x120.jpg 2x"><span><strong>Related</strong> Intel: Achieved 10nm HVM with Ice Lake Mobility SOC – 2x AI Performance, Gen 11 Graphics and Thunderbolt 3</span></a></p>
+<div class="wccf-gallery"><ul class="lightslider">
+<li data-thumb="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Cascade-Lake-SP-Xeon-Purley_2-240x135.png" data-src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Cascade-Lake-SP-Xeon-Purley_2.png" data-sub-html=""><img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Cascade-Lake-SP-Xeon-Purley_2-740x387.png" alt="intel-cascade-lake-sp-xeon-purley_2"></li>
+<li data-thumb="https://cdn.wccftech.com/wp-content/uploads/2018/02/Intel-Roadmap-2018-2019-Leak_Coffee-Lake-Cascade-Lake_1-240x135.jpg" data-src="https://cdn.wccftech.com/wp-content/uploads/2018/02/Intel-Roadmap-2018-2019-Leak_Coffee-Lake-Cascade-Lake_1.jpg" data-sub-html=""><img src="https://cdn.wccftech.com/wp-content/uploads/2018/02/Intel-Roadmap-2018-2019-Leak_Coffee-Lake-Cascade-Lake_1-740x398.jpg" alt="intel-roadmap-2018-2019-leak_coffee-lake-cascade-lake_1"></li>
+<li data-thumb="https://cdn.wccftech.com/wp-content/uploads/2018/02/Intel-Roadmap-2018-2019-Leak_Coffee-Lake-Cascade-Lake_4-240x135.jpg" data-src="https://cdn.wccftech.com/wp-content/uploads/2018/02/Intel-Roadmap-2018-2019-Leak_Coffee-Lake-Cascade-Lake_4.jpg" data-sub-html=""><img src="https://cdn.wccftech.com/wp-content/uploads/2018/02/Intel-Roadmap-2018-2019-Leak_Coffee-Lake-Cascade-Lake_4-740x423.jpg" alt="intel-roadmap-2018-2019-leak_coffee-lake-cascade-lake_4"></li>
+<li data-thumb="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Cascade-Lake-SP-Xeon-Purley_1-240x135.png" data-src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Cascade-Lake-SP-Xeon-Purley_1.png" data-sub-html=""><img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Cascade-Lake-SP-Xeon-Purley_1-740x387.png" alt="intel-cascade-lake-sp-xeon-purley_1"></li>
+<li data-thumb="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family_3-240x135.jpg" data-src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family_3.jpg" data-sub-html=""><img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family_3-740x387.jpg" alt="intel-xeon-scalable-family_3"></li>
+<li data-thumb="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family_2-240x135.jpg" data-src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family_2.jpg" data-sub-html=""><img src="https://cdn.wccftech.com/wp-content/uploads/2018/07/Intel-Xeon-Scalable-Family_2-740x383.jpg" alt="intel-xeon-scalable-family_2"></li>
+</ul></div>
+
+
+<p>The advanced processor lineup will be something that can put Intel back in the lead with disruptive core count and higher I/O capabilities. Just how would Intel achieve that with a new line of CPUs? The answer is MCM. Intel for the moment relies on monolithic dies and <a href="https://wccftech.com/intel-replies-amd-naples-hpc-glued-togather-desktop-dies-zen/">they have had multiple slides showcasing the benefits of such solutions</a>, however, monolithic dies are expensive and have several constraints which are starting to show their effect on Intel CPUs. AMD is taking the lead in multiple areas and both EPYC and Threadripper have put them in a visible lead against the blue team chips.</p>
+
+<p class="wp-lightbox"><a href="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies.png" ><img class="aligncenter size-large wp-image-892089" src="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-740x259.png" alt="" width="740" height="259" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-740x259.png 740w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-410x144.png 410w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-768x269.png 768w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-820x288.png 820w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-1480x519.png 1480w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-SP-Dies-1030x361.png 1030w" sizes="(max-width: 740px) 100vw, 740px"></a></p>
+
+<p>With Cascade Lake-AP, Intel plans to execute their own MCM (Multi-Chip-Module) approach. An industry insider, Ashraf Essa, has previously heard rumors of the Advanced Processor lineup and mentioned that it wasn’t expected until the Ice Lake generation. But now with the EPYC series proving to be crushing Intel in one of their dominant markets, there’s no doubt that they’ll end up using an MCM approach a generation early. You can learn more about the <a href="https://wccftech.com/intel-cascade-lake-ap-sp-xeon-server-family-mcm-rumor/">Advanced Processors over here</a>.</p>
+<div><div class="content-ad"><div id="div-gpt-ad-1454066633851-6"><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454066633851-6'); });</script></div></div></div>
+<h2 class="tablepress-table-name tablepress-table-name-id-840">Intel Xeon SP Families:</h2>
+
+<table id="tablepress-840" class="tablepress tablepress-id-840">
+<thead><tr class="row-1 odd">
+<th class="column-1">Family Branding</th>
+<th class="column-2">Skylake-SP</th>
+<th class="column-3">Cascade Lake-SP</th>
+<th class="column-4">Cascade Lake-AP</th>
+<th class="column-5">Cooper Lake</th>
+<th class="column-6">Ice Lake-SP</th>
+<th class="column-7">Ice Lake-AP</th>
+</tr></thead>
+<tbody class="row-hover">
+<tr class="row-2 even">
+<td class="column-1">Process Node</td>
+<td class="column-2">14nm+</td>
+<td class="column-3">14nm++</td>
+<td class="column-4">14nm++</td>
+<td class="column-5">14nm++</td>
+<td class="column-6">10nm+</td>
+<td class="column-7">10nm+</td>
+</tr>
+<tr class="row-3 odd">
+<td class="column-1">Platform Name</td>
+<td class="column-2">Intel Purley</td>
+<td class="column-3">Intel Purley</td>
+<td class="column-4">TBA</td>
+<td class="column-5">Intel Whitley</td>
+<td class="column-6">Intel Whitley</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-4 even">
+<td class="column-1">MCP (Multi-Chip Package) SKUs</td>
+<td class="column-2">No</td>
+<td class="column-3">No</td>
+<td class="column-4">Yes</td>
+<td class="column-5">No</td>
+<td class="column-6">No</td>
+<td class="column-7">Yes</td>
+</tr>
+<tr class="row-5 odd">
+<td class="column-1">Socket</td>
+<td class="column-2">LGA 3647</td>
+<td class="column-3">LGA 3647</td>
+<td class="column-4">BGA 5903</td>
+<td class="column-5">LGA 4189</td>
+<td class="column-6">LGA 4189</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-6 even">
+<td class="column-1">Max Core Count</td>
+<td class="column-2">Up To 28</td>
+<td class="column-3">Up To 28</td>
+<td class="column-4">Up To 48</td>
+<td class="column-5">Up To 28</td>
+<td class="column-6">TBA</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-7 odd">
+<td class="column-1">Max Thread Count</td>
+<td class="column-2">Up To 56</td>
+<td class="column-3">Up To 56</td>
+<td class="column-4">Up To 56</td>
+<td class="column-5">Up To 56</td>
+<td class="column-6">TBA</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-8 even">
+<td class="column-1">Max L3 Cache</td>
+<td class="column-2">38.5 MB L3</td>
+<td class="column-3">38.5 MB L3</td>
+<td class="column-4">TBA</td>
+<td class="column-5">TBA</td>
+<td class="column-6">TBA</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-9 odd">
+<td class="column-1">Memory Support</td>
+<td class="column-2">DDR4-2666 6-Channel</td>
+<td class="column-3">DDR4-2933 6-Channel</td>
+<td class="column-4">DDR4 2933 12-Channel</td>
+<td class="column-5">TBA</td>
+<td class="column-6">8-Channel</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-10 even">
+<td class="column-1">TDP Range</td>
+<td class="column-2">140W-205W</td>
+<td class="column-3">165W-205W</td>
+<td class="column-4">TBA</td>
+<td class="column-5">TBA</td>
+<td class="column-6">Up To 230W</td>
+<td class="column-7">TBA</td>
+</tr>
+<tr class="row-11 odd">
+<td class="column-1">Competition</td>
+<td class="column-2">AMD EPYC Naples 14nm</td>
+<td class="column-3">AMD EPYC Rome 7nm</td>
+<td class="column-4">AMD EPYC Rome 7nm</td>
+<td class="column-5">AMD EPYC Rome 7nm</td>
+<td class="column-6">AMD EPYC Milan 7nm+</td>
+<td class="column-7">AMD EPYC Milan 7nm+</td>
+</tr>
+<tr class="row-12 even">
+<td class="column-1">Launch</td>
+<td class="column-2">2017</td>
+<td class="column-3">2018</td>
+<td class="column-4">2019</td>
+<td class="column-5">2019</td>
+<td class="column-6">2020</td>
+<td class="column-7">2020?</td>
+</tr>
+</tbody>
+</table>
+<!-- #tablepress-840 from cache --><h2>Intel Cooper Lake-SP 14nm and Ice Lake-SP 10nm Xeons Are Designed For Next-Gen ‘Whitley’ Platform</h2>
+<p>Next up, we have the Whitely platform which will feature two Xeon Scalable Families. First one is the Cooper Lake-SP family which will be introduced at the end of 2019. The Cooper Lake CPUs will retain the 14nm process node and feature small efficiency enhancements but will be supported by a completely new platform known as Whitley which is the successor to Purley.</p>
+
+<p class="wp-lightbox"><a href="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP.jpg" ><img class="aligncenter size-large wp-image-892091" src="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP-740x370.jpg" alt="" width="740" height="370" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP-740x370.jpg 740w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP-410x205.jpg 410w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP-768x384.jpg 768w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP-820x410.jpg 820w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-XEON-SP-AP.jpg 1000w" sizes="(max-width: 740px) 100vw, 740px"></a></p>
+
+<p>Later in mid of 2020, Intel would introduce their first 10nm Scalable processor family, the <a href="https://wccftech.com/intel-10nm-ice-lake-sp-xeon-family-processor-platform-details-leak/">Ice Lake-SP</a>. While it was first expected to launch earlier, the 10nm product woes had resulted in a really bad situation for the entire Intel CPU family which has resulted in several delays and various product cancellations.</p>
+<p>This family will be supported by the same Whitley platform and come with an enhanced CPU/IO architecture layout. We can expect a core count bump and processors will retain support for 2S / 4S / 8S+ platforms.</p>
+
+<p class="wp-lightbox"><a href="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families.png" ><img class="aligncenter size-large wp-image-896295" src="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families-740x396.png" alt="" width="740" height="396" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families-740x396.png 740w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families-410x220.png 410w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families-768x411.png 768w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families-820x439.png 820w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families-1030x552.png 1030w, https://cdn.wccftech.com/wp-content/uploads/2018/06/Intel-Xeon-CPU-Families.png 1068w" sizes="(max-width: 740px) 100vw, 740px"></a></p>
+
+<p>While the current Skylake-SP Xeon family uses the LGA 3647 socket and housed on the Purely platform which will exist up till Cascade Lake-SP Xeon parts, the Ice Lake-SP family will use an entirely new socket design. This is termed as the LGA 4189 socket and will be Intel’s largest pin socket design to date. The socket will be even larger than the AMD’s TR4 / SP4 socket for Ryzen Threadripper and EPYC part which comes with 4094 LGA pins.</p>
+<p>Coming to CPU support, the post Purely platform will house up to 230W CPUs. Note that current Skylake-SP Xeons range from 140W to 205W variants while Cascade Lake-SP parts scale from 165 to 205W variants. The higher TDP would be due to several reasons, we can see a core count and clock speed bump in addition to the expected implementation of OmniPath and on-package FPGAs features which would make a whole lot of sense for high-end Xeon Ice Lake-SP parts.</p>
+
+<p class="wp-lightbox"><a href="https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family.png" ><img class="aligncenter size-large wp-image-746691" src="https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-740x416.png" alt="" width="740" height="416" srcset="https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-740x416.png 740w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-240x135.png 240w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-410x231.png 410w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-768x432.png 768w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-480x270.png 480w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-820x461.png 820w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-1480x833.png 1480w, https://cdn.wccftech.com/wp-content/uploads/2017/08/Intel-Xeon_Family-1030x579.png 1030w" sizes="(max-width: 740px) 100vw, 740px"></a></p>
+
+<p>Whitley would feature a total of 16 slots dedicated to each CPU which points out to having an octa-channel memory support. This is higher than the hexa-channel memory that we are aware of on the Skylake-SP part. The <a href="https://wccftech.com/intel-cascade-lake-xeon-scalable-platform-optane-dimm-2018/">Cascade Lake-SP</a> platform features support for 2933 MHz DDR4 memory. The extra memory slots can bump the memory all the way up to 1 TB (per socket) from the current maximum of 786 GB using the highest density products.</p>
+<p>There’s also a mention of a next-generation AP part with a ‘TBD Pass’ label attached to it. There are no details but these HPC focused chips will launch sometime in mid of 2020. A next-generation SP Xeon family is also listed for Post-2020 aiming the Tinsley platform which will be coupled with new Sapphire Rapids core architecture but that is still a couple of years away. This roadmap shows only a glimpse of what Intel has to offer in the Xeon (workstation/datacenter/HPC) segment. It will be a really crucial few years for the company with the resurgence of AMD and their EPYC line of CPUs as having already <a href="https://wccftech.com/amd-epyc-rome-zen-2-7nm-cpus-compete-favorably-against-intel-ice-lake-xeons/">hinted</a> to compete favorably against their Ice Lake-SP (2020) chips a year earlier and on a much smaller 7nm node.</p>
+<div class="dem-poll-shortcode">
+<!--democracy-->
+<style type="text/css">.democracy:after{content:'';display:table;clear:both}.democracy ul li,.democracy ul{background:none;padding:0;margin:0}.democracy ul li:before{display:none}.democracy input[type='radio'],.democracy input[type='checkbox']{margin:0;vertical-align:middle}.democracy input[type='radio']:focus,.democracy input[type='checkbox']:focus{outline:0}.democracy ul{list-style:none !important;border:0 !important;padding-left:0 !important}.democracy ul li{list-style:none !important}input[type="submit"].dem-button,a.dem-button,.dem-button{position:relative;display:inline-block;text-decoration:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;line-height:1;border:0;margin:0;padding:0;width:100px;font-size:14px;font-weight:normal;float:right}input[type="submit"].dem-button:focus,a.dem-button:focus,.dem-button:focus{outline:0}input[type="submit"].dem-button:disabled,a.dem-button:disabled,.dem-button:disabled{opacity:.6;cursor:not-allowed}.dem-button:hover{cursor:pointer}a.dem-button:hover{text-decoration:none !important}.democracy{position:relative;margin:0 auto}.democracy input[type='radio'],.democracy input[type='checkbox']{margin-right:.2em}.dem-screen{position:relative;line-height:1.3;padding:20px}ul.dem-vote{margin-bottom:1em}ul.dem-vote li{padding-bottom:0;margin-bottom:0}ul.dem-vote li>*{margin-bottom:.6em}ul.dem-answers li{padding-bottom:1em}.dem-answers .dem-label{margin-bottom:.2em;line-height:1.2}.dem-graph{position:relative;color:#fff;box-sizing:content-box;width:100%;display:table;height:1.2em;line-height:1.2em}.dem-fill{position:absolute;top:0;left:0;height:100%;background-color:#7cb4dd}.dem-voted-this .dem-fill{background-color:#3498db}.dem-votes-txt,.dem-percent-txt{position:relative;display:table-cell;padding-left:.3em;vertical-align:middle;font-size:90%}.dem-poll-info{float:left}.dem-poll-info:after{content:'';display:table;clear:both}.dem-poll-info>*{font-size:85%;display:block;clear:both;opacity:.7;line-height:1.3}.dem-vote label{float:none;display:block}.dem-results-link{display:inline-block;line-height:1;margin:.5em 0;float:left}.dem-vote .dem-disabled{opacity:.5}.democracy .dem-bottom{border-top:1px solid rgba(0,0,0,.1);margin-left:-20px;margin-right:-20px;padding:19px 20px 0 20px}.dem-bottom:after{content:'';display:table;clear:both}.dem-vote-button{float:right}.dem-poll-title{display:block;margin-bottom:1.5em;margin-top:1.2em;font-size:120%}.dem-cache-notice{z-index:10;position:absolute;top:0;border-radius:2px;width:100%;padding:1.5em 2em;text-align:center;background:rgba(247,241,212,.8);color:#6d6214}.dem-notice-close{position:absolute;top:0;right:0;padding:5px;cursor:pointer;line-height:.6;font-size:150%}.dem-notice-close:hover{color:#d26616}.dem-star{font-size:90%;vertical-align:baseline;padding-left:.3em;color:#ff4e00}.dem-poll-note{font-size:90%;padding:.5em;opacity:.8;line-height:1.3}.democracy .dem-copyright{position:absolute;bottom:-1em;right:0;text-decoration:none;border-bottom:0;color:#b2b2b2;opacity:.5;line-height:1}.democracy .dem-copyright:hover{opacity:1}.dem-add-answer{position:relative}.dem-add-answer>*{display:block}.dem-add-answer a{display:inline-block}input.dem-add-answer-txt{width:100%;box-sizing:border-box}.dem-add-answer-close{position:absolute;right:0;padding:0 .7em;cursor:pointer;color:#333}.dem-add-answer-close:hover{color:#ff2700}.dem-edit-link{display:block;position:absolute;top:0;right:0;line-height:1;text-decoration:none !important;border:0 !important}.dem-edit-link svg{width:1.2em !important;fill:#5a5a5a;fill:rgba(0,0,0,.6)}.dem-edit-link:hover svg{fill:#35a91d}.dem-loader{display:none;position:absolute;top:0;left:0;width:100%;height:100%}.dem-loader>*{display:table-cell;vertical-align:middle;text-align:center}.dem-loader svg{width:20%;max-width:100px;min-width:80px;margin-bottom:15%}.dem-loader [class^="dem-"]{margin-bottom:15% !important}.dem-archives .democracy{margin-bottom:2em;padding-bottom:20px;border-bottom:1px dashed #ccc}.dem-archives .dem-archive-link{display:none}.democracy{background:#f6f6f6;margin-bottom:1em;border:1px solid rgba(0,0,0,.1)}.dem-poll-title{margin:0;font-size:16px;padding:20px;border-bottom:1px solid rgba(0,0,0,.1)}.dem-percent-txt,.dem-label-percent-txt{display:none}.dem-votes-txt-percent:before{content:'- ';display:inline}.dem-revote-button:before{content:'◂ '}.dem-graph{background-color:#ddd}.dem-results-link{margin-bottom:0}.dem__checkbox,.dem__radio{display:none !important}.dem__checkbox_label,.dem__radio_label{position:relative;box-sizing:content-box}.dem__checkbox_label .dem__spot,.dem__radio_label .dem__spot{position:relative;display:inline-block;vertical-align:baseline;top:.1em;cursor:pointer;width:12px;height:12px;margin-right:.3em;background:#777}.dem__checkbox_label .dem__spot{border-radius:3px}.dem__radio_label .dem__spot{border-radius:50%}.dem__checkbox_label .dem__spot:after,.dem__radio_label .dem__spot:after{content:'';position:absolute;opacity:0}.dem__checkbox_label .dem__spot:after{width:11px;height:4px;top:0;left:2px;border:2px solid #fff;border-top:0;border-right:0;background:transparent;-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);transform:rotate(-45deg);box-shadow:-1px 1px 1px #555}.dem__radio_label .dem__spot:after{width:6px;height:6px;border-radius:50%;top:50%;left:50%;background:#fff;-ms-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);box-shadow:0 0 0 1px #666,inset -1px -1px 1px #ccc}.dem__checkbox_label:hover .dem__spot::after,.dem__radio_label:hover .dem__spot::after{opacity:.4}.dem__checkbox:checked+.dem__spot,.dem__radio:checked+.dem__spot{border-color:#999}.dem__checkbox:checked+.dem__spot:after,.dem__radio:checked+.dem__spot:after{opacity:1}.dem__checkbox:disabled+.dem__spot,.dem__radio:disabled+.dem__spot{opacity:.5}.dem__checkbox:not(:checked):disabled+.dem__spot:after,.dem__radio:not(:checked):disabled+.dem__spot:after{opacity:0}input[type="submit"].dem-button,a.dem-button,.dem-button{font-weight:700;color:#fff;padding:10px 30px;border-radius:3px;background:#eb0254;transition:background .2s}input[type="submit"].dem-button:hover,a.dem-button:hover,.dem-button:hover{background:#eb0254}input[type="submit"].dem-button:active,a.dem-button:active,.dem-button:active{background:#21935a;box-shadow:0 3px #21935a inset}a.dem-button:visited{color:#fff}</style>
+<div id="democracy-365" class="democracy" data-opts='{"ajax_url":"https:\/\/wccftech.com\/wp-admin\/admin-ajax.php","pid":365,"max_answs":0,"answs_max_height":"500","anim_speed":"400","line_anim_speed":1500}'>
+<strong class="dem-poll-title">Which Xeon Scalable Family from Intel would be the most interesting against AMD's EPYC platform?</strong><div class="dem-screen vote"><form method="POST" action="#democracy-365">
+<ul class="dem-vote">
+<li data-aid="1705">
+						<label class="dem__radio_label">
+							<input class="dem__radio" type="radio" value="1705" name="answer_ids[]"><span class="dem__spot"></span> Intel Cascade Lake-SP/AP (2018)
+						</label>
+					</li>
+					<li data-aid="1707">
+						<label class="dem__radio_label">
+							<input class="dem__radio" type="radio" value="1707" name="answer_ids[]"><span class="dem__spot"></span> Intel Cooper Lake-SP/AP (2019)
+						</label>
+					</li>
+					<li data-aid="1709">
+						<label class="dem__radio_label">
+							<input class="dem__radio" type="radio" value="1709" name="answer_ids[]"><span class="dem__spot"></span> Intel Ice Lake-SP/AP (2020)
+						</label>
+					</li>
+					<li data-aid="1711">
+						<label class="dem__radio_label">
+							<input class="dem__radio" type="radio" value="1711" name="answer_ids[]"><span class="dem__spot"></span> Intel Next-Gen Xeons (Post 2020)
+						</label>
+					</li>
+</ul>
+<div class="dem-bottom">
+<input type="hidden" name="dem_act" value="vote"><input type="hidden" name="dem_pid" value="365"><div class="dem-vote-button"><input class="dem-button " type="submit" value="Vote" data-dem-act="vote"></div>
+<a href="javascript:void(0);" class="dem-link dem-results-link" data-dem-act="view" rel="nofollow">View Results</a>
+</div>
+</form></div>
+<noscript>Poll Options are limited because JavaScript is disabled in your browser.</noscript>
+<div class="dem-loader"><div>
+<style type="text/css">
+.dem-roller {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.con1 > div, .con2 > div, .con3 > div {
+  width: 10px;
+  height: 10px;
+  background-color: #2686cc;
+
+  border-radius: 100%;
+  position: absolute;
+  -webkit-animation: bouncedelay 1.2s infinite ease-in-out;
+  animation: bouncedelay 1.2s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.dem-roller .demrcont {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.con2 {
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.con3 {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
+}
+
+.circle1 { top: 0; left: 0; }
+.circle2 { top: 0; right: 0; }
+.circle3 { right: 0; bottom: 0; }
+.circle4 { left: 0; bottom: 0; }
+
+.con2 .circle1 { -webkit-animation-delay: -1.1s; animation-delay: -1.1s; }
+.con3 .circle1 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s; }
+.con1 .circle2 { -webkit-animation-delay: -0.9s; animation-delay: -0.9s; }
+.con2 .circle2 { -webkit-animation-delay: -0.8s; animation-delay: -0.8s; }
+.con3 .circle2 { -webkit-animation-delay: -0.7s; animation-delay: -0.7s; }
+.con1 .circle3 { -webkit-animation-delay: -0.6s; animation-delay: -0.6s; }
+.con2 .circle3 { -webkit-animation-delay: -0.5s; animation-delay: -0.5s; }
+.con3 .circle3 { -webkit-animation-delay: -0.4s; animation-delay: -0.4s; }
+.con1 .circle4 { -webkit-animation-delay: -0.3s; animation-delay: -0.3s; }
+.con2 .circle4 { -webkit-animation-delay: -0.2s; animation-delay: -0.2s; }
+.con3 .circle4 { -webkit-animation-delay: -0.1s; animation-delay: -0.1s; }
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+</style>
+<div class="dem-roller">
+  <div class="demrcont con1">
+    <div class="circle1 css-fill"></div>
+    <div class="circle2 css-fill"></div>
+    <div class="circle3 css-fill"></div>
+    <div class="circle4 css-fill"></div>
+  </div>
+  <div class="demrcont con2">
+    <div class="circle1 css-fill"></div>
+    <div class="circle2 css-fill"></div>
+    <div class="circle3 css-fill"></div>
+    <div class="circle4 css-fill"></div>
+  </div>
+  <div class="demrcont con3">
+    <div class="circle1 css-fill"></div>
+    <div class="circle2 css-fill"></div>
+    <div class="circle3 css-fill"></div>
+    <div class="circle4 css-fill"></div>
+  </div>
+</div>
+
+</div></div>
+</div>
+<!--democracy-->
+</div>
+			
+						
+						
+		    <div class="meta-share meta-share-bottom clearfix">
+			    <span class="facebook"><i class="icon-facebook"></i> Share</span>
+			    <span class="twitter"><i class="icon-twitter"></i> Tweet</span>
+			    <span class="reddit"><i class="icon-reddit"></i> Submit</span>
+			</div>
+
+		</div>
+
+		
+		
+			
+		<div style="margin: 30px auto; width: 728px; height: 90px; overflow: hidden; ">
+			<!-- /8095840/4.Wccftech_728x90_BTF -->
+			<div id='div-gpt-ad-1454066633851-1' style="text-align: center; width: 728px; height: 90px;">
+			<script>
+			googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454066633851-1'); });
+			</script>
+			</div>
+		</div>
+		
+		
+				
+		<div class="related-posts clearfix">
+			<h2 class="sub-head"><span>Related</span></h2>
+			
+		<script type="text/javascript">
+		if (!window.OX_ads) { OX_ads = []; }
+		OX_ads.push({ "auid" : "539361560" });
+		</script>
+		<script type="text/javascript">
+		document.write('<scr'+'ipt src="//titangate-d.openx.net/w/1.0/jstag"><\/scr'+'ipt>');
+		</script>
+		<noscript><iframe id="3f5e55b2f0" name="3f5e55b2f0" src="//titangate-d.openx.net/w/1.0/afr?auid=539361560&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="1" height="1"><a href="//titangate-d.openx.net/w/1.0/rc?cs=3f5e55b2f0&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="//titangate-d.openx.net/w/1.0/ai?auid=539361560&cs=3f5e55b2f0&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript>
+	
+			
+		<article class="post clearfix">
+			<div class="thumb" style="background-image:url('//cdn.wccftech.com/images/post-thumb.png')">
+				<a href="https://wccftech.com/watch-intel-ces-2019-live-stream-live-now/"><img width="240" height="135" src="https://cdn.wccftech.com/wp-content/uploads/2014/02/Intel-Xeon-E7-Ivy-Bridge-EX-Die-shot-240x135.jpg" alt="intel-xeon-e7-ivy-bridge-ex-die-shot" srcset="https://cdn.wccftech.com/wp-content/uploads/2014/02/Intel-Xeon-E7-Ivy-Bridge-EX-Die-shot-480x270.jpg 2x" /></a>
+			</div>
+			<div class="text">
+				<h3><a href="https://wccftech.com/watch-intel-ces-2019-live-stream-live-now/">Watch Intel CES 2019 Live Stream &#8211; [Live Now]</a></h3>
+				<div class="meta">
+					<a href="https://wccftech.com/author/usmanpirzada/">Usman Pirzada</a> &nbsp;•&nbsp; Jan 7					<div class="float-right">
+						<span class="disqus-comment-count" data-disqus-identifier="995490 http://wccftech.com/?p=995490"></span> &nbsp;&nbsp;
+						<i class="icon-share"></i> 15					</div>		
+				</div>
+			</div>
+		</article>
+			
+		<article class="post clearfix">
+			<div class="thumb" style="background-image:url('//cdn.wccftech.com/images/post-thumb.png')">
+				<a href="https://wccftech.com/the-financial-year-in-tech-2018-highs-lows-and-future-trends/"><img width="240" height="135" src="https://cdn.wccftech.com/wp-content/uploads/2016/12/Money-Tech-240x135.jpg" alt="money-tech" srcset="https://cdn.wccftech.com/wp-content/uploads/2016/12/Money-Tech-480x270.jpg 2x" /></a>
+			</div>
+			<div class="text">
+				<h3><a href="https://wccftech.com/the-financial-year-in-tech-2018-highs-lows-and-future-trends/">The Financial Year in Tech 2018: Highs, Lows and Future Trends</a></h3>
+				<div class="meta">
+					<a href="https://wccftech.com/author/adrianip/">Adrian Ip</a> &nbsp;•&nbsp; Dec 27					<div class="float-right">
+						<span class="disqus-comment-count" data-disqus-identifier="991692 http://wccftech.com/?p=991692"></span> &nbsp;&nbsp;
+						<i class="icon-share"></i> 10					</div>		
+				</div>
+			</div>
+		</article>
+			
+		<article class="post clearfix">
+			<div class="thumb" style="background-image:url('//cdn.wccftech.com/images/post-thumb.png')">
+				<a href="https://wccftech.com/intel-xeon-w-3175x-28-core-cpu-pricing-listing-online/"><img width="240" height="135" src="https://cdn.wccftech.com/wp-content/uploads/2018/10/Intel-2018-Desktop-Lineup-240x135.png" alt="intel-2018-desktop-lineup" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/10/Intel-2018-Desktop-Lineup-480x270.png 2x" /></a>
+			</div>
+			<div class="text">
+				<h3><a href="https://wccftech.com/intel-xeon-w-3175x-28-core-cpu-pricing-listing-online/">Intel&#8217;s Flagship HEDT Processor, The 28 Core Xeon W-3175X Listed Online &#8211; Could End Up Costing Around $4000 US</a></h3>
+				<div class="meta">
+					<a href="https://wccftech.com/author/hms/">Hassan Mujtaba</a> &nbsp;•&nbsp; Dec 16					<div class="float-right">
+						<span class="disqus-comment-count" data-disqus-identifier="988912 http://wccftech.com/?p=988912"></span> &nbsp;&nbsp;
+						<i class="icon-share"></i> 58					</div>		
+				</div>
+			</div>
+		</article>
+			
+		<article class="post clearfix">
+			<div class="thumb" style="background-image:url('//cdn.wccftech.com/images/post-thumb.png')">
+				<a href="https://wccftech.com/intel-ghost-canyon-frost-canyon-nucs-9th-gen-core-i9-8-cores/"><img width="240" height="135" src="https://cdn.wccftech.com/wp-content/uploads/2018/12/nuc6i7kyk-masthead-rwd.jpg.rendition.intel_.web_.864.486-240x135.jpg" alt="nuc6i7kyk-masthead-rwd-jpg-rendition-intel-web-864-486" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/12/nuc6i7kyk-masthead-rwd.jpg.rendition.intel_.web_.864.486-480x270.jpg 2x" /></a>
+			</div>
+			<div class="text">
+				<h3><a href="https://wccftech.com/intel-ghost-canyon-frost-canyon-nucs-9th-gen-core-i9-8-cores/">Intel Readies 8 Core/16 Thread, Ghost Canyon X NUC With 9th Generation Core i9, H-Series Processors &#8211; 6 Core/12 Thread, Core i7 Model Also in The Works</a></h3>
+				<div class="meta">
+					<a href="https://wccftech.com/author/hms/">Hassan Mujtaba</a> &nbsp;•&nbsp; Dec 5, 2018					<div class="float-right">
+						<span class="disqus-comment-count" data-disqus-identifier="984255 http://wccftech.com/?p=984255"></span> &nbsp;&nbsp;
+						<i class="icon-share"></i> 15					</div>		
+				</div>
+			</div>
+		</article>
+			
+		<article class="post clearfix">
+			<div class="thumb" style="background-image:url('//cdn.wccftech.com/images/post-thumb.png')">
+				<a href="https://wccftech.com/amd-epyc-rome-7nm-server-market-share-gain/"><img width="240" height="135" src="https://cdn.wccftech.com/wp-content/uploads/2018/11/e076a1c58a70d01c3cc9480ce955b78f3cfffabc5ff844f2406ac91a4a0ec91d-240x135.jpg" alt="e076a1c58a70d01c3cc9480ce955b78f3cfffabc5ff844f2406ac91a4a0ec91d" srcset="https://cdn.wccftech.com/wp-content/uploads/2018/11/e076a1c58a70d01c3cc9480ce955b78f3cfffabc5ff844f2406ac91a4a0ec91d-480x270.jpg 2x" /></a>
+			</div>
+			<div class="text">
+				<h3><a href="https://wccftech.com/amd-epyc-rome-7nm-server-market-share-gain/">AMD EPYC Reaches 2% Market Share in 2018, 7nm EPYC Rome Expected To Capture Up To 5% Server Market Share &#8211; Intel Remains The Undisputed Champ With 98% Market Share</a></h3>
+				<div class="meta">
+					<a href="https://wccftech.com/author/hms/">Hassan Mujtaba</a> &nbsp;•&nbsp; Nov 30, 2018					<div class="float-right">
+						<span class="disqus-comment-count" data-disqus-identifier="982245 http://wccftech.com/?p=982245"></span> &nbsp;&nbsp;
+						<i class="icon-share"></i> 106					</div>		
+				</div>
+			</div>
+		</article>
+			</div>
+
+		
+				<div id="disqus_thread"></div>
+		<script>
+			var disqus_config = function () {
+				this.page.url = 'https://wccftech.com/intel-xeon-scalable-family-roadmap-revealed-points-out-cascade-lake-sp-in-q4-2018-cooper-lake-sp-in-q4-2019-ice-lake-sp-in-1h-2020/';
+				this.page.identifier = '913895 http://wccftech.com/?p=913895';
+			};
+			(function() {
+				var d = document, s = d.createElement('script');
+				s.src = '//wccftech.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the comments.</noscript>
+				
+
+	</section>
+    
+        
+    
+	<aside class="sidebar">
+		
+		<div class="sidebar-ad">
+		<!-- /8095840/4.Wccftech_300x250_ATF -->
+		<div id='div-gpt-ad-1454066633851-2' style='height:250px; width:300px;'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454066633851-2'); });
+		</script>
+		</div>
+	</div>
+		
+		
+	<section class="builder-widget">
+	    <h3>Pre-built PCs</h3>
+
+		<form class="form_build_pc clearfix" method="get" action="/gaming-desktops-and-laptops/">
+
+			<div class="purpose">
+				<h4>Type</h4>
+				<input type="radio" id="type1" name="type" value="desktop" checked><label class="round-left" for="type1">Desktop</label><input type="radio" id="type2" name="type" value="laptop" ><label class="round-right" for="type2">Laptop</label>
+			</div>
+
+			<div class="price">
+				<h4>Budget</h4>
+				<div class="range"><input id="price" type="range" name="price" min="400" max="2500" step="50" value="1000" onchange="update_range_value(this.value);" oninput="update_range_value(this.value);"><output id="range_value">$1000</output></div>
+			</div>
+
+			<div class="checkbox-group-3">
+				<h4>CPU</h4>
+				<input 
+				type="radio" id="cpu1" name="cpu" value="Any"  checked="checked"><label for="cpu1" class="round-left">Any</label><input 
+				type="radio" id="cpu2" name="cpu" value="AMD"   ><label for="cpu2">AMD</label><input 
+				type="radio" id="cpu3" name="cpu" value="Intel" ><label for="cpu3" class="round-right">Intel</label>					
+			</div>
+
+			<div class="checkbox-group-4">
+				<h4>Monitor</h4>
+				<input 
+				type="radio" id="monitor-1" name="monitor" value="None" checked><label for="monitor-1" class="round-left">None</label><input 
+				type="radio" id="monitor-2" name="monitor" value="1080"><label for="monitor-2">1080</label><input 
+				type="radio" id="monitor-3" name="monitor" value="1440"><label for="monitor-3">1440</label><input 
+				type="radio" id="monitor-4" name="monitor" value="4K"  ><label for="monitor-4" class="round-right">4K</label>
+			</div>			
+			
+			<div class="submit">
+				<div style="width: 100%; float: right; padding-top: 5px; ">
+					<input type="hidden" name="keyboard" value="None">
+					<input type="hidden" name="mouse" value="None">
+				    <input type="submit" value="GO!">
+					<input type="hidden" name="via" value="desktop-sidebar">
+				</div>
+			</div>
+		</form>
+
+		<script>
+			function update_range_value(val) {
+				document.getElementById('range_value').value= '$'+val; 
+			}
+		</script>
+	</section>
+
+	<style>
+		.builder-widget { box-shadow: 0px 2px 30px 5px rgba(0,0,0,0.1); background-image: url('/builder/builder-widget.png'); background-repeat: no-repeat; background-position: right bottom; background-size: 70%; padding-bottom: 170px;  }
+		.builder-widget h3 { position: relative; background: #fff; padding: 17px 0 15px 0; text-align: center; font-weight: bold; text-transform: uppercase; font-size: 20px; }
+		.builder-widget h4 { font-weight: 500; text-transform: uppercase; margin-bottom: 12px; }
+		.builder-widget form {text-align: center; padding: 30px 20px; box-shadow: inset 0px 20px 50px -10px rgba(0,0,0,0.1); }
+		.builder-widget div { margin-bottom: 30px; }
+		.builder-widget input[type=submit] { border: 1px solid #eee; background: #fff; box-shadow: 0 5px 40px 0px rgba(0,0,0,0.1); padding: 10px 30px; border-radius: 5px; cursor: pointer; text-transform: uppercase }
+		.builder-widget input[type=submit]:hover { border: 1px solid #ddd; box-shadow: 0 5px 40px 0px rgba(0,0,0,0.12); }
+
+		.builder-widget input[type=radio] { display:none; }
+		.builder-widget input[type=radio] + label { display: inline-block; border: 1px solid #EB0254; border-right:none; cursor: pointer; background: #fff; margin-bottom: 0; font-size: 80%; line-height: 32px; color: #333; text-align: center; }
+		.builder-widget input[type=radio] + label:last-child { border-right: 1px solid #EB0254; }
+			.builder-widget .purpose input[type=radio] + label { width: 50% }
+			.builder-widget .checkbox-group-2 input[type=radio] + label { width: 50% }
+			.builder-widget .checkbox-group-3 input[type=radio] + label { width: 33.3% }
+			.builder-widget .checkbox-group-4 input[type=radio] + label { width: 25% }
+			.builder-widget .round-left  { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+			.builder-widget .round-right { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+		
+		.builder-widget input[type=radio]:checked + label { background-color: #EB0254; color: white; }	    
+		
+		.range { display: table; width:100%; height: 30px; border:1px solid #EB0254; border-radius: 3px; line-height: 0; }
+		output { display: table-cell; height: 30px; white-space: nowrap; vertical-align: top; width: 1%; border-top-right-radius:3px;border-bottom-right-radius:3px; min-width: 50px; font-size: 12px; line-height: 30px; text-align: center; background: #EB0254; color: white; padding: 0; border-left: none }
+
+		input[type=range]{display: table-cell;height:30px;-webkit-appearance:none;margin:0;width:100% !important}
+		input[type=range]:focus{outline:none}
+		input[type=range]::-moz-focus-outer { border: 0; outline: 0; }
+		
+		input[type=range]::-webkit-slider-runnable-track{width:100%;height:30px;cursor:pointer;animate:.2s;background:#FFF;}
+		input[type=range]::-moz-range-track{width:100%;height:30px;cursor:pointer;animate:.2s;background:#FFF;}
+		input[type=range]::-ms-track{width:100%;height:30px;cursor:pointer;animate:.2s;background:transparent;border-color:transparent;color:transparent}
+
+		input[type=range]::-webkit-slider-thumb{margin-top:-5px;border:1px solid #EB0254;height:40px;width:15px;border-radius:3px;background:#EB0254;cursor:pointer;-webkit-appearance:none;}
+		input[type=range]::-moz-range-thumb{margin-top:-5px;border:1px solid #EB0254;height:40px;width:15px;border-radius:3px;background:#EB0254;cursor:pointer;}
+		input[type=range]::-ms-thumb{margin-top:-5px;border:1px solid #EB0254;height:40px;width:15px;border-radius:3px;background:#EB0254;cursor:pointer;}
+
+		input[type=range]::-ms-fill-lower{background:#EB0254;border:0 solid #000000;border-radius:2px;box-shadow:0 0 0 #000000}
+		input[type=range]::-ms-fill-upper{background:#EB0254;border:0 solid #000000;border-radius:2px;box-shadow:0 0 0 #000000}
+		input[type=range]:focus::-ms-fill-lower{background:#EB0254}
+		input[type=range]:focus::-ms-fill-upper{background:#EB0254}
+
+	#price_slider { float: left; width: 87%;}
+		#price_input  { float: right; width: 13%; text-align: right }
+			#price { width: 90px; border: none; border-radius: 3px; padding: 7px 0; font-size: 90%; color: #555; text-align: center }
+		
+	</style>
+	
+		<div class="sidebar-ad">
+		<!-- /8095840/4.wccftech.com_desktop_300x600 -->
+		<div id='div-gpt-ad-1454066633851-7' style='max-height:600px; width:300px;'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454066633851-7'); });
+		</script>
+		</div>
+	</div>
+	
+		
+	<section class="trending-posts sidebar-trending">
+	    <h3 class="sub-head"><span>Trending Stories</span></h3>
+		<ul><li><a href="https://wccftech.com/exclusive-follow-up-on-amds-agenda-for-ces-2019/">Exclusive: Follow Up On AMD&#8217;s Agenda For CES 2019</a></li>
+<li><a href="https://wccftech.com/nvidia-geforce-rtx-2080-ti-msi-lightning-and-evga-kingpin-custom-models/">NVIDIA GeForce RTX 2080 TI Flagship Custom Models From MSI &#038; EVGA Unleashed &#8211; MSI RTX 2080 Ti Lightning and EVGA RTX 2080 Ti KINGPIN</a></li>
+<li><a href="https://wccftech.com/razer-turret-xbox-one-hands-on-ces-2019/">Razer Turret for Xbox One CES 2019 Hands-on &#8211; Unfair Advantage?</a></li>
+<li><a href="https://wccftech.com/windows-10-1903-7gb-reserved-storage/">Windows 10 1903 Will Set Aside 7GB of Disk Space for Windows Updates</a></li>
+<li><a href="https://wccftech.com/mad-box-easy-develop/">The Mad Box Will Be &#8220;Very Easy To Develop For&#8221;; 3 Large Conglomerates Are Ready To Fund The Project</a></li>
+</ul>	</section>
+	
+		<div class="sidebar-ad">
+		<!-- /8095840/4.Wccftech_300x250_BTF -->
+		<div id='div-gpt-ad-1454066633851-3' style='height:250px; width:300px;'>
+		<script>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454066633851-3'); });
+		</script>
+		</div>
+	</div>
+		
+	<section class="popular-posts sidebar-popular">
+	    <h3 class="sub-head"><span>Popular Discussions</span></h3>
+		<ul><li class="popular-post-1"><a href="https://wccftech.com/new-nvidia-geforce-rtx-2080-ti-custom-models-on-the-horizon-msi-lightning-z-zotacs-arcticstorm-and-colorfuls-igame-rng/">New NVIDIA GeForce RTX 2080 Ti Custom Models On The Horizon &#8211; MSI Lightning Z, ZOTAC&#8217;s ArcticStorm and Colorful&#8217;s iGame RNG</a><span>5176</span></li>
+<li class="popular-post-2"><a href="https://wccftech.com/exclusive-follow-up-on-amds-agenda-for-ces-2019/">Exclusive: Follow Up On AMD&#8217;s Agenda For CES 2019</a><span>3441</span></li>
+<li class="popular-post-3"><a href="https://wccftech.com/nvidia-g-sync-amd-freesync-gaming-monitor-support-official/">NVIDIA Officially Supporting VESA Adaptive Sync Through G-SYNC Compatible Monitors Program &#8211; 12 FreeSync Monitors Passed, Drivers Launching 15th January</a><span>3206</span></li>
+<li class="popular-post-4"><a href="https://wccftech.com/watch-the-nvidia-ces-2019-press-event-ceo-jensen-huangs-opening-keynote-live-here/">Watch The NVIDIA CES 2019 Press Event &#038; CEO Jensen Huang&#8217;s Opening Keynote Live Here</a><span>2270</span></li>
+<li class="popular-post-5"><a href="https://wccftech.com/intel-launches-new-nervana-ai-neural-network-processor-with-100-watt-power-arriving-in-2019/">Intel Launches New Nervana AI Neural Network Processor With 100 Watt+ Power, Arriving in 2019</a><span>1167</span></li>
+</ul>	</section>
+	
+	<section class="sidebar-youtube" id="sidebar-youtube-single">
+		<a class="youtube-button" href="https://www.youtube.com/user/WccftechTv?sub_confirmation=1" target="_blank"><i class="icon-youtube"></i> Subscribe</a>
+		    <h3 class="sub-head"><span>Wccftech TV</span></h3>
+			<div class="sidebar-youtube-player" data-video="G7TI-woWGfU" style="background-image:url(//img.youtube.com/vi/G7TI-woWGfU/hqdefault.jpg)">
+		<div class="play"></div>
+	</div>
+	<div class="sidebar-youtube-list">
+		
+			<div class="sidebar-youtube-video active" data-video="G7TI-woWGfU">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/G7TI-woWGfU/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">03:53</span>
+				</div>
+				<h4>AMD Zen 2 Based Ryzen 3000 Series Desktop CPUs Listed Online</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="yT-eA3VAGdY">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/yT-eA3VAGdY/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">03:01</span>
+				</div>
+				<h4>How To Use NVIDIA OC Scanner With GTX 10 Series Cards</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="Nma4IVgCw7I">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/Nma4IVgCw7I/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">03:32</span>
+				</div>
+				<h4>GeForce RTX 2060 Founders Edition Pictured!</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="O0n7w4OFJ54">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/O0n7w4OFJ54/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">04:25</span>
+				</div>
+				<h4>NVIDIA GeForce RTX 2060 To Have SIX Variants?</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="bBksfbrRWR8">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/bBksfbrRWR8/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">24:18</span>
+				</div>
+				<h4>Dynasty Warriors 8: Xtreme Legends Definitive Edition Gameplay [Nintendo Switch]</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="KpcSOIfn1u4">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/KpcSOIfn1u4/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">14:51</span>
+				</div>
+				<h4>Last Year: The Nightmare Gameplay</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="LgNC3zwhtMc">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/LgNC3zwhtMc/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">04:53</span>
+				</div>
+				<h4>AMD Announcing New CPUs And More At CES And NVIDIA Readies GTX 2050 or GTX 1150?</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="4VympUj5hmk">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/4VympUj5hmk/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">03:21</span>
+				</div>
+				<h4>NVIDIA Allegedly Launching GeForce RTX 2060 and GTX 1160 in January?</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="iXxfD3HPvxQ">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/iXxfD3HPvxQ/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">20:48</span>
+				</div>
+				<h4>Book of Demons Gameplay</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="8CgTrUkbRtM">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/8CgTrUkbRtM/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">06:05</span>
+				</div>
+				<h4>The Last Remnant Remastered Gameplay - The Fallen Secret Bossfight</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="v17sEENpCng">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/v17sEENpCng/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">05:09</span>
+				</div>
+				<h4>NVIDIA Titan RTX 3DMark Performance Unveiled!</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="ERKx3DJ-wYc">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/ERKx3DJ-wYc/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">07:48</span>
+				</div>
+				<h4>NVIDIA GeForce MX250 Mobility GPU In The Works! Budget Mobile Gamers Rejoice!</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="R7fvuwuW3d0">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/R7fvuwuW3d0/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">04:19</span>
+				</div>
+				<h4>Unlocked Intel Xeon W-3175X Is Going To Cost How Much?!</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="hh44LDzo09E">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/hh44LDzo09E/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">08:07</span>
+				</div>
+				<h4>Subnautica Is Free And We Play It On A Ryzen 5 2400G</h4>
+			</div>					
+			
+		
+			<div class="sidebar-youtube-video " data-video="f7QJXcJHHWM">
+				<div class="thumb" style="background-image: url('https://img.youtube.com/vi/f7QJXcJHHWM/hqdefault.jpg'), url('//cdn.wccftech.com/images/post-thumb.png')">
+					<div class="play"></div>
+					<span class="duration">02:49</span>
+				</div>
+				<h4>How To Use Radeon Adrenalin Wattman Auto Overclocking</h4>
+			</div>					
+			
+			</div>
+		</section>
+	
+</aside>
+    </main>
+
+<footer>
+
+    <section class="wrap clearfix">
+				
+		
+		<div class="footer-1">
+			<!--<i class="fa fa-folder-open-o"></i>-->
+			<h3>Sections</h3>
+			<ul>
+				<li><a href="/review/">Reviews</a></li>
+				<li><a href="/topic/interview/">Interviews</a></li>
+				<li><a href="/topic/deals/">Deals</a></li>
+				<li><a href="/topic/exclusive/">Exclusive</a></li>
+				<li><a href="/topic/video/">Video</a></li>
+				<li><a href="/topic/entertainment/">Entertainment</a></li>
+				<li><a href="/pc-builder/">PC Builder</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-2">
+			<!--<i class="fa fa-hashtag"></i>-->
+			<h3>Topics</h3>
+			<ul>
+				<li><a href="/topic/hardware/">Hardware</a></li>
+				<li><a href="/topic/games/">Gaming</a></li>
+				<li><a href="/topic/gadgets/">Mobile</a></li>
+				<li><a href="/topic/finance/">Finance</a></li>
+				<li><a href="/topic/software/">Software</a></li>
+				<li><a href="/topic/security/">Security</a></li>
+				<li><a href="/topic/web/">Web</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-3">
+			<!--<i class="fa fa-info"></i>-->
+			<h3>Know Us</h3>
+			<ul>
+				<li><a href="/about/">About</a></li>
+				<li><a href="/advertise/">Advertise</a></li>
+				<li><a href="/contact/">Contact</a></li>
+				<li><a href="/tip-us/">Tip Us</a></li>
+				<li><a href="/jobs/">Careers</a></li>
+				<li><a href="/legal-disclaimer/">Terms of Use</a></li>
+				<li><a href="/privacy-policy/">Privacy &amp; Cookie Policy</a></li>
+				<li><a style="cursor:pointer" onclick='window.__cmp("displayConsentUi")'>Change Ad Consent</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-4">
+			<!--<i class="fa"></i>-->
+			<h3>Follow US</h3>
+			<ul>
+				<li class="twitter"><a href="https://twitter.com/wccftechdotcom"><i class="icon-twitter"></i> Twitter</a></li>
+				<li class="facebook"><a href="https://www.facebook.com/wccftech"><i class="icon-facebook"></i> Facebook</a></li>
+				<li class="youtube"><a href="https://www.youtube.com/wccftechtv"><i class="icon-youtube"></i> YouTube</a></li>
+			</ul><br><br>
+
+			<h3 style="margin-bottom: 10px;">Subscribe</h3>
+			<p>Enter your email address to subscribe to our daily newsletter</p>
+			<form id="traqli" class="traqli">
+				<input type="email" id="sub_email" name="sub_email" placeholder="Email address" required /><input type="submit" value="Submit">
+				<input type="hidden" name="action" value="submit_traqli">
+			</form>
+		</div>
+
+		<div class="copyright">
+			<span class="logo"><a href="https://wccftech.com/" rel="home"><img src="/images/wccftech-logo-w.png" width="223" height="40" alt="Wccftech"></a></span>
+			<span class="text">
+				&copy; 2019 NewAge ADS, LLC. All rights reserved.
+							</span>
+			<span class="preload-images"></span>
+		</div>
+
+    </section>
+</footer>
+
+
+
+<!--democracy-->
+<script type="text/javascript">function dem_ready(e){"use strict";var t,n=".democracy",i=e(n),o=".dem-screen",a=".dem-add-answer-txt",s=e(".dem-loader").first(),d={};i.length&&(d.opts=i.first().data("opts"),d.ajaxurl=d.opts.ajax_url,d.answMaxHeight=d.opts.answs_max_height,d.speed=parseInt(d.opts.anim_speed),d.lineAnimSpeed=parseInt(d.opts.line_anim_speed),setTimeout(function(){var t=i.find(o).filter(":visible"),n=function(){t.each(function(){d.setHeight(e(this),1)})};t.demInitActions(1),e(window).on("resize.demsetheight",n),e(window).load(n),d.maxAnswLimit();var a=e(".dem-cache-screens");a.length>0&&a.demCacheInit()},10),e.fn.demInitActions=function(t){return this.each(function(){var n=e(this),i="data-dem-act";n.find("["+i+"]").each(function(){e(this).attr("href",""),e(this).click(function(t){t.preventDefault(),e(this).blur().demDoAction(e(this).attr(i))})});var o=!!n.find("input[type=radio][data-dem-act=vote]").first().length;o&&n.find(".dem-vote-button").hide(),d.setAnswsMaxHeight(n),d.lineAnimSpeed&&n.find(".dem-fill").each(function(){var t=e(this);setTimeout(function(){t.animate({width:t.data("width")},d.lineAnimSpeed)},d.speed,"linear")}),d.setHeight(n,t),n.find("form").submit(function(t){t.preventDefault();var n=e(this).find('input[name="dem_act"]').val();n&&e(this).demDoAction(e(this).find('input[name="dem_act"]').val())})})},e.fn.demSetLoader=function(){var e=this;return s.length?e.closest(o).append(s.clone().css("display","table")):t=setTimeout(function(){d.demLoadingDots(e)},50),this},e.fn.demUnsetLoader=function(){return s.length?this.closest(o).find(".dem-loader").remove():clearTimeout(t),this},e.fn.demAddAnswer=function(){var t=this.first(),n=t.closest(o),i=n.find("[type=checkbox]").length>0,s=e('<input type="text" class="'+a.replace(/\./,"")+'" value="">');if(n.find(".dem-vote-button").show(),n.find("[type=radio]").each(function(){e(this).click(function(){t.fadeIn(300),e(a).remove()}),"radio"==e(this)[0].type&&(this.checked=!1)}),t.hide().parent("li").append(s),s.hide().fadeIn(300).focus(),i){var d=n.find(a);e('<span class="dem-add-answer-close">×</span>').insertBefore(d).css("line-height",d.outerHeight()+"px").click(function(){var t=e(this).parent("li");t.find("input").remove(),t.find("a").fadeIn(300),e(this).remove()})}return!1},e.fn.demCollectAnsw=function(){var t=this.closest("form"),n=t.find("[type=checkbox],[type=radio],[type=text]"),i=t.find(a).val(),o=[],s=n.filter("[type=checkbox]:checked");if(s.length>0)s.each(function(){o.push(e(this).val())});else{var d=n.filter("[type=radio]:checked");d.length&&o.push(d.val())}return i&&o.push(i),o=o.join("~"),o?o:""},e.fn.demDoAction=function(t){var i=this.first(),a=i.closest(n),s={dem_pid:a.data("opts").pid,dem_act:t,action:"dem_ajax"};return"undefined"==typeof s.dem_pid?(console.log("Poll id is not defined!"),!1):"vote"!=t||(s.answer_ids=i.demCollectAnsw(),s.answer_ids)?"delVoted"!=t||confirm(i.data("confirm-text"))?"newAnswer"==t?(i.demAddAnswer(),!1):(i.demSetLoader(),e.post(d.ajaxurl,s,function(e){i.demUnsetLoader(),i.closest(o).html(e).demInitActions()}),!1):!1:(d.demShake(i),!1)},e.fn.demCacheShowNotice=function(e){var t=this.first(),n=t.find(".dem-youarevote").first();return"blockForVisitor"==e&&(t.find(".dem-revote-button").remove(),n=t.find(".dem-only-users").first()),t.prepend(n.show()),setTimeout(function(){n.slideUp("slow")},1e4),this},d.cacheSetAnswrs=function(t,n){var i=n.split(/,/);if(t.hasClass("voted")){var o=t.find(".dem-answers"),a=o.data("voted-class"),s=o.data("voted-txt");e.each(i,function(n,i){t.find('[data-aid="'+i+'"]').addClass(a).attr("title",function(){return s+e(this).attr("title")})}),t.find(".dem-vote-link").remove()}else{var d=t.find("[data-aid]"),r=t.find(".dem-voted-button");e.each(i,function(e,t){d.filter('[data-aid="'+t+'"]').find("input").prop("checked","checked")}),d.find("input").prop("disabled","disabled"),t.find(".dem-vote-button").remove(),r.length?r.show():(t.find('input[value="vote"]').remove(),t.find(".dem-revote-button-wrap").show())}},e.fn.demCacheInit=function(){return this.each(function(){var t=e(this),i=t.prev(n);if(i.length||(i=t.closest(n)),!i.length)return void console.log("Main dem div not found");var a=i.find(o).first(),s=i.data("opts").pid,r=Cookies.get("demPoll_"+s),c="notVote"==r?!0:!1,f=!("undefined"==typeof r||c),l=t.find(o+"-cache.vote").html(),h=t.find(o+"-cache.voted").html();if(l){var u=f&&h;if(a.html((u?h:l)+"<!--cache-->").removeClass("vote voted").addClass(u?"voted":"vote"),f&&d.cacheSetAnswrs(a,r),a.demInitActions(1),!c&&!f&&1==t.data("opt_logs")){var m,p=function(){clearTimeout(m)},v=function(){m=setTimeout(function(){if(!i.hasClass("checkAnswDone")){i.addClass("checkAnswDone");var t=i.find(".dem-link").first();t.demSetLoader(),e.post(d.ajaxurl,{dem_pid:i.data("opts").pid,dem_act:"getVotedIds",action:"dem_ajax"},function(e){t.demUnsetLoader(),e&&(a.html(h),d.cacheSetAnswrs(a,e),a.demInitActions(),a.demCacheShowNotice(e))})}},700)};i.hover(v,p),i.click(v)}}})},d.detectRealHeight=function(e){var t=e.clone().css({height:"auto"}).insertBefore(e),n="border-box"==t.css("box-sizing")?parseInt(t.css("height")):t.height();return t.remove(),n},d.setHeight=function(t,n){var i=d.detectRealHeight(t);n?t.css({height:i}):t.css({opacity:0}).animate({height:i},d.speed,function(){e(this).animate({opacity:1},1.5*d.speed)})},d.setAnswsMaxHeight=function(t){if("-1"!==d.answMaxHeight&&"0"!==d.answMaxHeight&&d.answMaxHeight){var n=t.find(".dem-vote, .dem-answers").first(),i=parseInt(d.answMaxHeight);n.css({"max-height":"none","overflow-y":"visible"});var o="border-box"==n.css("box-sizing")?parseInt(n.css("height")):n.height(),a=o-i;if(a>100){n.css("position","relative");var s,r=e('<span class="dem__collapser"><span class="arr"></span></span>').appendTo(n),c=function(){r.addClass("expanded").removeClass("collapsed")},f=function(){r.addClass("collapsed").removeClass("expanded")};t.data("expanded")?c():(f(),n.height(i).css("overflow-y","hidden")),r.hover(function(){t.data("expanded")||(s=setTimeout(function(){r.trigger("click")},1e3))},function(){clearTimeout(s)}),r.click(function(){if(clearTimeout(s),t.data("expanded"))f(),t.data("expanded",!1),t.height("auto"),n.stop().css("overflow-y","hidden").animate({height:i},d.speed,function(){d.setHeight(t,!0)});else{c();var e=d.detectRealHeight(n);e+=7,t.data("expanded",!0),t.height("auto"),n.stop().animate({height:e},d.speed,function(){d.setHeight(t,!0),n.css("overflow-y","visible")})}})}}},d.maxAnswLimit=function(){i.on("change","[type=checkbox]",function(){var t=e(this).closest(n).data("opts").max_answs,i=e(this).closest(o).find("[type=checkbox]"),a=i.filter(":checked").length;a>=t?i.filter(":not(:checked)").each(function(){e(this).prop("disabled","disabled").closest("li").addClass("dem-disabled")}):i.each(function(){e(this).removeProp("disabled").closest("li").removeClass("dem-disabled")})})},d.demShake=function(e){var t=e.css("position");for(t&&"static"!==t||e.css("position","relative"),t=1;2>=t;t++)e.animate({left:-10},50).animate({left:10},100).animate({left:0},50)},d.demLoadingDots=function(e){var n=e,i=n.is("input"),o=i?n.val():n.html();"..."===o.substring(o.length-3)?i?n[0].value=o.substring(0,o.length-3):n[0].innerHTML=o.substring(0,o.length-3):i?n[0].value+=".":n[0].innerHTML+=".",t=setTimeout(function(){d.demLoadingDots(n)},200)})}!function(e){if("function"==typeof define&&define.amd)define(e);else if("object"==typeof exports)module.exports=e();else{var t=window.Cookies,n=window.Cookies=e();n.noConflict=function(){return window.Cookies=t,n}}}(function(){function e(){for(var e=0,t={};e<arguments.length;e++){var n=arguments[e];for(var i in n)t[i]=n[i]}return t}function t(n){function i(t,o,a){var s;if("undefined"!=typeof document){if(arguments.length>1){if(a=e({path:"/"},i.defaults,a),"number"==typeof a.expires){var d=new Date;d.setMilliseconds(d.getMilliseconds()+864e5*a.expires),a.expires=d}try{s=JSON.stringify(o),/^[\{\[]/.test(s)&&(o=s)}catch(r){}return o=n.write?n.write(o,t):encodeURIComponent(String(o)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g,decodeURIComponent),t=encodeURIComponent(String(t)),t=t.replace(/%(23|24|26|2B|5E|60|7C)/g,decodeURIComponent),t=t.replace(/[\(\)]/g,escape),document.cookie=[t,"=",o,a.expires&&"; expires="+a.expires.toUTCString(),a.path&&"; path="+a.path,a.domain&&"; domain="+a.domain,a.secure?"; secure":""].join("")}t||(s={});for(var c=document.cookie?document.cookie.split("; "):[],f=/(%[0-9A-Z]{2})+/g,l=0;l<c.length;l++){var h=c[l].split("="),u=h[0].replace(f,decodeURIComponent),m=h.slice(1).join("=");'"'===m.charAt(0)&&(m=m.slice(1,-1));try{if(m=n.read?n.read(m,u):n(m,u)||m.replace(f,decodeURIComponent),this.json)try{m=JSON.parse(m)}catch(r){}if(t===u){s=m;break}t||(s[u]=m)}catch(r){}}return s}}return i.set=i,i.get=function(e){return i(e)},i.getJSON=function(){return i.apply({json:!0},[].slice.call(arguments))},i.defaults={},i.remove=function(t,n){i(t,"",e(n,{expires:-1}))},i.withConverter=t,i}return t(function(){})});var demjquerywait=setInterval(function(){"undefined"!=typeof jQuery&&(clearInterval(demjquerywait),jQuery(document).ready(dem_ready))},50);</script>
+<script type='text/javascript' src='https://cdn.wccftech.com/wp-content/themes/wccf2016/script.js?ver=1544717250'></script>
+
+
+	
+
+	
+	<script type="text/javascript">
+	(function($) {
+	$(document).ready(function() {
+
+		var headroom  = new Headroom(document.querySelector("header"), {"offset": 125, tolerance: 5 });
+		headroom.init();	
+		
+		$('.toggle-search').click(function() {
+			$(".search-form").fadeToggle(100, 'linear');
+			$(this).toggleClass("active");
+			$('#q').focus();
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'Search', 'click'); }
+		});
+
+		$('.feedback-link').click(function() {
+			$(".feedback-form").fadeToggle(100, 'linear');
+			$("#feedback_form_name").val('');
+			$("#feedback_form_email").val('');
+			$("#feedback_form_feedback").val('');
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'Build My PC', 'feedback-link'); }
+		});
+
+		$('.post-tv').click(function() {
+			video_id = $(this).data("video");
+			$(this).find('.video').addClass("open");
+			$(this).find('.video').html('<iframe class="inline-youtube" src="https://www.youtube.com/embed/'+video_id+'?enablejsapi=1&rel=0&autoplay=1&origin=https://wccftech.com" frameborder="0" allowFullScreen="allowFullScreen"></iframe>');
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'YouTube', 'Inline', video_id); }
+		});
+
+		function isScrolledIntoView(elem) {
+			var $window = $(window),
+			docViewTop = $window.scrollTop(),
+			docViewBottom = docViewTop + $window.height(),
+			elemTop = $(elem).offset().top,
+			elemBottom = elemTop + $(elem).outerHeight();
+			//return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+			return ((elemBottom <= docViewBottom) && (elemBottom >= docViewTop));
+		}
+		
+		$(window).on("scroll", function() {
+		
+			$('.inline-youtube').each(function() {
+				if (!isScrolledIntoView(this)) {
+					$(this)[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');				
+				}
+			});
+		
+		});
+			
+		/*
+		$('.search-form').submit(function(e) {
+			e.preventDefault();
+			var search_url = '/find/?q=' + document.getElementById('s').value.replace(/ /g, '+');
+			window.location = search_url;
+		});
+		*/
+
+		$('a.wccf-stock-quote').each(function() {
+
+			var link = $(this);
+			var text = $(this).text();
+			var exc_sym = text.split(":");
+
+			$(this).html(text + '<span class="fetching"></span>');
+
+			var newtext;
+			$.getJSON('https://api.iextrading.com/1.0/stock/'+exc_sym[1]+'/quote', function(data) {
+				
+				if(data.symbol !== null) {
+					
+					if(data.change < 0) {
+						$(link).addClass('minus');
+						newtext = text + ' <span><i class="icon-arrow-down"></i><strong>' + data.latestPrice + '</strong> ' + (data.changePercent * 100).toFixed(2) + '%</span>';
+					}
+					
+					if(data.change > 0) {
+						$(link).addClass('plus');
+						newtext = text + ' <span><i class="icon-arrow-up"></i><strong>' + data.latestPrice + '</strong> ' + (data.changePercent * 100).toFixed(2) + '%</span>';
+					}
+		
+					$(link).html(newtext);
+				} else {
+					
+					$(link).html(text + '<span class="quote-na">n/a</span>');
+					
+				}
+				
+			}).error(function() {
+				 
+				$(link).html(text + '<span class="quote-na">n/a</span>');
+				
+			});
+		});
+			
+		$('.nav a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Menu', 'click', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('a.wccf-amazon').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			var product = $(this).text();
+			var href = $(this).attr("href");
+			ga('send', 'event', 'Affiliate', 'Auto', product, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('.sidebar-latest a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Sidebar', 'Widget: Latest', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('.sidebar-exclusives a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Sidebar', 'Widget: Exclusives', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('.sidebar-trending a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Sidebar', 'Widget: Trending', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('.sidebar-popular a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Sidebar', 'Widget: Popular', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+
+		$('.sidebar-deals a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Sidebar', 'Widget: Deals', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+		
+		$('.aside-deals-home a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Deals', 'Home', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+		
+		$('.aside-deals-archive a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Deals', 'Archive', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+		
+		$('.aside-event a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Event', 'iPhone Xs Launch', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+			
+		$('.aside-reviews-hardware a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Review Box', 'Hardware', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('.aside-reviews-mobile a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Review Box', 'Mobile', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+
+		$('.build').on('click', '.price_a a', function(e) {
+			if (typeof ga !== "function") return;
+			href = $(this).attr("href");
+			link_class = $(this).attr("class");
+			ga('send', 'event', 'Build My PC (Amazon)', link_class, href, {
+				'transport': 'beacon',
+				'hitCallback': function() { window.open(href); }
+			});
+		});
+
+		$('.build').on('click', '.price_n a', function(e) {
+			if (typeof ga !== "function") return;
+			href = $(this).attr("href");
+			link_class = $(this).attr("class");
+			ga('send', 'event', 'Build My PC (Newegg)', link_class, href, {
+				'transport': 'beacon',
+				'hitCallback': function() { window.open(href); }
+			});
+		});
+
+		/*
+		$('.related-posts a').click(function(e) {
+			if (typeof ga !== "function") return;
+			//e.preventDefault();
+			href = $(this).attr("href");
+			ga('send', 'event', 'Related Posts (Bottom)', 'click', href, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = href;}
+			});
+		});
+		*/
+
+		$('.sidebar-youtube-player').on('click', function(e) {
+			
+			var video_id = $(this).data("video");
+			var sidebar = $(this).closest(".sidebar-youtube").attr('id');
+			if(sidebar == 'sidebar-youtube-hardware') sidebar = 'Hardware'; else if (sidebar == 'sidebar-youtube-gaming') sidebar = 'Gaming'; else sidebar = 'Single';
+				
+			$('.sidebar-youtube-player').css('background-image', 'none');
+			$('.sidebar-youtube-player').html('<iframe src="https://www.youtube.com/embed/'+video_id+'?&rel=0&autoplay=1" frameborder="0" allowFullScreen="allowFullScreen"></iframe>');
+
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'YouTube', 'Sidebar (' + sidebar + ')', video_id); }
+		});	
+
+
+		$('.sidebar-youtube-video').on('click', function(e) {
+			
+			var video_id = $(this).data("video");
+			var sidebar = $(this).closest(".sidebar-youtube").attr('id');
+			if(sidebar == 'sidebar-youtube-hardware') sidebar = 'Hardware'; else if (sidebar == 'sidebar-youtube-gaming') sidebar = 'Gaming'; else sidebar = 'Single';
+
+			$('.sidebar-youtube-player').css('background-image', 'none');
+			$('.sidebar-youtube-player').html('<iframe src="https://www.youtube.com/embed/'+video_id+'?&rel=0&autoplay=1" frameborder="0" allowFullScreen="allowFullScreen"></iframe>');
+
+			$('.sidebar-youtube-video').removeClass('active');
+			$(this).addClass('active');
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'YouTube', 'Sidebar (' + sidebar + ')', video_id); }
+		});	
+		
+
+		$('.youtube-thumb').on('click', function(e) {
+			
+			var video_id = $(this).data("video");
+			$('.youtube-player-wrap').css('background-image', 'none');
+			$('.youtube-player-wrap').html('<iframe src="https://www.youtube.com/embed/'+video_id+'?&rel=0&autoplay=1" frameborder="0" allowFullScreen="allowFullScreen"></iframe>');
+
+			$('.youtube-thumb').removeClass('active');
+			$(this).addClass('active');
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'YouTube', 'Home', video_id); }
+		});	
+		
+		$('.youtube-player-wrap').on('click', function(e) {
+			
+			var video_id = $(this).data("video");
+			$('.youtube-player-wrap').css('background-image', 'none');
+			$('.youtube-player-wrap').html('<iframe src="https://www.youtube.com/embed/'+video_id+'?&rel=0&autoplay=1" frameborder="0" allowFullScreen="allowFullScreen"></iframe>');
+
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'YouTube', 'Home', video_id); }
+		});	
+
+		$(".feedback-form form").submit(function(e) {
+			
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'Build My PC', 'feedback-form'); }
+			$('.feedback-result').html('<img src="https://cdn.wccftech.com/builder/loading2.gif" width="15" height="15" alt="loading">');
+			$.post("/wp-admin/admin-ajax.php", $(this).serialize(), function(response) {
+				if(response == 'success') {
+					$('.feedback-result').html('Thank you for the feedback.');
+					$('.feedback-form').hide();
+				} else {
+					$('.feedback-result').html(response);			
+				}
+			});
+			e.preventDefault();
+		});
+		
+		$("#form_add_to_cart").submit(function(e) {
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'Build My PC', 'Add To Cart'); }
+		});
+
+		$("footer form").submit(function(e) {
+			
+			if (typeof ga !== 'undefined') { ga('send', 'event', 'Footer', 'Subscribe'); }
+			$('.footer-4 p').html('<img src="https://cdn.wccftech.com/builder/loading2.gif" width="15" height="15" alt="loading">');
+			$.post("/wp-admin/admin-ajax.php", $(this).serialize(), function(response) {
+				if(response == 'success') {
+					$('.footer-4 p').html('You have been successfully subscribed to our newsletter. Thank you.');
+					$('#traqli').hide();
+				} else {
+					$('.footer-4 p').html(response);			
+				}
+			});
+			e.preventDefault();
+		});
+		
+		/*
+		$('main.wrap').on('mouseenter', '.shares', function(){
+			$(this).append('<div class="sohail-share"><i class="icon-facebook share-facebook"></i><i class="icon-twitter share-twitter"></i><i class="icon-reddit share-reddit"></i></div>');
+			$(".sohail-share").show();
+		}).on('mouseleave', '.shares', function(){
+			$(".sohail-share").hide().remove();
+		});
+
+		$('main').on('click', '.share-facebook', function(e) {
+			e.preventDefault();
+			var url = $(this).closest('.shares').data('url');
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Archive', url);
+			do_share('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url));
+		});
+		
+		$('main').on('click', '.share-twitter', function(e) {
+			e.preventDefault();
+			var url = $(this).closest('.shares').data('url');
+			var text = $(this).closest('.shares').data('text');
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Archive', url);
+			do_share('https://twitter.com/intent/tweet?url=' + url + '&text=' + encodeURIComponent(truncate_text(text, 110)));
+		});
+		
+		$('main').on('click', '.share-reddit', function(e) {
+			e.preventDefault();
+			var url = $(this).closest('.shares').data('url');
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Archive', url);
+			do_share('https://www.reddit.com/submit?url=' + encodeURIComponent(url));
+		});
+		*/
+
+
+				$('.meta-share-top .facebook').on('click', function(e) {
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Single (Top)', document.location.href);
+			do_share('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.location.href));
+		});
+		
+		$('.meta-share-top .twitter').on('click', function(e) {
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Single (Top)', document.location.href);
+			do_share( 'https://twitter.com/intent/tweet?url=' + document.location.href + '&text=' + encodeURIComponent(truncate_text(document.title, 110)) );
+		});
+
+		$('.meta-share-top .reddit').on('click', function(e) {
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Single (Top)', document.location.href);
+			do_share('https://www.reddit.com/submit?url=' + encodeURIComponent(document.location.href));
+		});
+
+		$('.meta-share-bottom .facebook').on('click', function(e) {
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Single (Bottom)', document.location.href);
+			do_share('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.location.href));
+		});
+		
+		$('.meta-share-bottom .twitter').on('click', function(e) {
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Single (Bottom)', document.location.href);
+			do_share( 'https://twitter.com/intent/tweet?url=' + document.location.href + '&text=' + encodeURIComponent(truncate_text(document.title, 110)) );
+		});
+
+		$('.meta-share-bottom .reddit').on('click', function(e) {
+			if (typeof ga !== 'undefined') ga('send', 'event', 'Share', 'Single (Bottom)', document.location.href);
+			do_share('https://www.reddit.com/submit?url=' + encodeURIComponent(document.location.href));
+		});
+
+		//$(".wp-gallery").lightGallery({mode: 'lg-fade', hideBarsDelay: 2000, preload: 2, thumbWidth: 168, thumbContHeight: 100});
+		$(".wp-lightbox").lightGallery({mode: 'lg-fade'});
+		$('.lightslider').lightSlider({
+	        gallery:true,
+	        item:1,
+	        loop:true,
+	        thumbItem:6,
+	        slideMargin:0,
+	        enableDrag: false,
+	        currentPagerPosition:'left',
+			onSliderLoad: function(el) {
+	            el.lightGallery({
+	                selector: '.lightslider .lslide', mode: 'lg-fade', hideBarsDelay: 1000, preload: 2, thumbWidth: 124, thumbContHeight: 80, getCaptionFromTitleOrAlt: false
+	            });
+	        }
+	    });
+					
+	});
+	})(jQuery);	
+	</script>
+
+			
+		<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=54373194-91c7-4e61-b9a0-12cad6711106"></script>
+		<script type="text/javascript" src="//s.skimresources.com/js/31026X886738.skimlinks.js"></script>
+
+	
+	
+		<script type="text/javascript">
+		if (!window.OX_ads) { OX_ads = []; }
+		OX_ads.push({ "auid" : "538775705" });
+		</script>
+		<script type="text/javascript">
+		document.write('<scr'+'ipt src="//titangate-d.openx.net/w/1.0/jstag"><\/scr'+'ipt>');
+		</script>
+		<noscript><iframe id="dec5b2f144" name="dec5b2f144" src="//titangate-d.openx.net/w/1.0/afr?auid=538775705&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="1" height="1"><a href="//titangate-d.openx.net/w/1.0/rc?cs=dec5b2f144&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="//titangate-d.openx.net/w/1.0/ai?auid=538775705&cs=dec5b2f144&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript>
+
+	
+	
+		<script id="dsq-count-scr" src="//wccftech.disqus.com/count.js" async></script>
+
+		
+		<script type="text/javascript"> ;!function(){
+		 window.NewzmateConfig = {id: 83}
+		 var e=document.createElement("script");e.setAttribute("id","tqlucidsdksel"),e.type="text/javascript",e.src="//api.traq.li/public/sdk/v04/sdk.js",e.async=!0,document.getElementsByTagName("script")[0].parentNode.appendChild(e);
+		 }();
+		</script>
+
+	
+</body>
+</html>
